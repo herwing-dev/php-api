@@ -30,7 +30,8 @@ curl_close($ch);
       <section class="card">
         <img class="img-fluid mx-auto d-block" src="<?= $data['poster_url']; ?>" alt="Poster de <?= $data['title']; ?>" width="200">
         <hgroup class="card-body text-center">
-          <h3 class="card-title fs-4"><?= $data['title']; ?> se estrena en <?= $data['days_until']; ?> días</h3>
+          <h3 class="card-title fs-3"><?= $data['title']; ?></h3>
+          <p class="card-text fs-5">Se estrena en <?= $data['days_until']; ?> días</p>
           <p class="card-text fs-6">Fecha de estreno: <?= $data['release_date']; ?></p>
           <p class="card-text fs-6">La siguiente es: <?= $data['following_production']['title']; ?></p>
         </hgroup>
