@@ -26,7 +26,7 @@ curl_close($ch);
 
 <body data-bs-theme="dark">
   <main class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
-    <div class="col-4">
+    <div class="col-sm-10 col-md-8 col-lg-6">
       <section class="card">
         <img class="img-fluid mx-auto d-block" src="<?= $data['poster_url']; ?>" alt="Poster de <?= $data['title']; ?>" width="200">
         <hgroup class="card-body text-center">
